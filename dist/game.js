@@ -2913,7 +2913,9 @@ vec4 frag(vec3 pos, vec2 uv, vec4 color, sampler2D tex) {
   }, "default");
 
   // code/main.js
-  no();
+  no({
+    background: [252, 186, 3]
+  });
   loadSprite("bean", "sprites/bean.png");
   var score = 0;
   scene("lose", () => {

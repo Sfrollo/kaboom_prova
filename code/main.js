@@ -1,7 +1,9 @@
 import kaboom from "kaboom"
 
 // initialize context
-kaboom()
+kaboom({
+  background: [252, 186, 3]
+})
 
 // load assets
 loadSprite("bean", "sprites/bean.png");
